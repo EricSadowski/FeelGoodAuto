@@ -1,3 +1,15 @@
+/* colors and fonts
+
+background #1D1818
+red/crimson #A91111
+font-family: 'Arimo', sans-serif;
+font-family: 'Yesteryear', cursive;
+
+*******************/
+
+
+
+
 body {
     background-color: #1D1818;
     color: white;
@@ -5,11 +17,25 @@ body {
 }
 
 
+
+
+
+
+/* ABOUT PAGE CSS 
+*******************/
+
+#enginePic {
+    width: 100%;
+}
+
+
+
+/* NAV CSS 
+*******************/
 #navbarMainHeader a{
     color: white;
     padding: .7em;
     font-weight: bold;
-
 }
 
 #logoNav {
@@ -24,31 +50,13 @@ nav {
     border-bottom: 5px solid #A91111;
 }
 
-
 #logo{
     height: 1em;
 }
 
-
 @media only screen and (max-width: 991px) {
-
-
-#phone {
-    height: 4em;
 }
-
-}
-
-#enginePic {
-    width: 100%;
-}
-
 
 @media only screen and (min-width: 992px) {
-
-
-#phone{
-    display: none;
-}
 
 }
