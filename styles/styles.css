@@ -1,0 +1,54 @@
+body {
+    background-color: #1D1818;
+    color: white;
+    font-family: 'Arimo', sans-serif
+}
+
+
+#navbarMainHeader a{
+    color: white;
+    padding: .7em;
+    font-weight: bold;
+
+}
+
+#logoNav {
+    height: 75px;
+}
+
+.bg-main {
+    background-color: #1D1818;
+}
+
+nav {
+    border-bottom: 5px solid #A91111;
+}
+
+
+#logo{
+    height: 1em;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+
+#phone {
+    height: 4em;
+}
+
+}
+
+#enginePic {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+
+#phone{
+    display: none;
+}
+
+}
