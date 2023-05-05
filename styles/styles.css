@@ -18,16 +18,56 @@ body {
 
 
 
+.service-button{
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #A91111;
+    border-radius: 12px;
+    border: 2px solid black;
+    
+}
 
+.script {
 
+    font-family: 'Yesteryear', cursive;
+    font-size: 2.4em;
+    text-shadow: 3px 2px black;
+
+}
 
 /* ABOUT PAGE CSS 
 *******************/
 
-#enginePic {
-    width: 100%;
+
+#about-banner {
+
+        
+        display: flex;
+        flex-direction: column;
+        background-image: url(../images/engine-banner1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 20em;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px solid #A91111
+       
+
+
 }
 
+.about1 {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+#mustang {
+    /*
+    border-top: 5px solid #A91111;
+    border-bottom: 5px solid #A91111  */
+}
 
 
 /* NAV CSS 
