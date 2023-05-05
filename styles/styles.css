@@ -74,8 +74,9 @@ body {
 *******************/
 #navbarMainHeader a{
     color: white;
-    padding: .7em;
+    padding-right: 6em;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 #logoNav {
@@ -94,7 +95,25 @@ nav {
     height: 1em;
 }
 
+/*MEDIA queries ***********************/
+
+
+@media only screen and (max-width: 1399px) {
+    #navbarMainHeader a{
+        color: white;
+        padding-right: 2.4em;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+}
+
 @media only screen and (max-width: 991px) {
+    #navbarMainHeader a{
+        color: white;
+        padding-right: 1em;
+        font-weight: bold;
+        font-size: 1em;
+    }
 }
 
 @media only screen and (min-width: 992px) {
