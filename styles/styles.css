@@ -160,6 +160,12 @@ nav {
 
 @media only screen and (max-width: 800px) {
 
+
+    #navbarMainHeader a{
+        font-size: 1.7em;
+    }
+    
+
     #about-banner {
 
         height: 15em;
@@ -203,7 +209,8 @@ body{
     body{
         font-size: 8px;
     }
-    
+
+
 
 
     #about-banner {
