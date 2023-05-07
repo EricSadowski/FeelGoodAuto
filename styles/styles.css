@@ -16,9 +16,19 @@ body {
     font-family: 'Arimo', sans-serif
 }
 
+.service-button-home {
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px; /* Increase font size */
+    padding: 10px 20px;
+    background-color: #A91111;
+    border-radius: 12px;
+    border: 3px solid black;
+}
 
 
-.service-button{
+.service-button, .submit-button{
     font-family: 'Arimo', sans-serif;
     color: white;
     font-weight: bold;
@@ -26,15 +36,11 @@ body {
     background-color: #A91111;
     border-radius: 12px;
     border: 2px solid black;
-    
 }
 
-.service-button:hover{
-
+.service-button:hover, service-button-home:hover{
     background-color: #7c0d0d;  
 }
-
-
 
 .script {
 
@@ -42,6 +48,19 @@ body {
     font-size: 3em;
     text-shadow: 3px 2px black;
 
+}
+
+/* HOME PAGE CSS 
+*******************/
+.home-container {
+    background-image: url('/images/PlaceholderStoreFront.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ABOUT PAGE CSS 
@@ -119,6 +138,33 @@ nav {
 
 #logo{
     height: 1em;
+}
+
+/* Style for the footer */
+footer {
+    padding-top: 20px;
+    background-color: #1D1818;
+    border-top: 5px solid #A91111;
+  }
+
+  .form-container, .quote, .social-container, .social-icon {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.social-icon {
+    color:#A91111;
+    font-size: xx-large;
+}
+
+.phone-icon {
+    color: #A91111;
+}
+
+.social-icon:hover, .phone-icon:hover {
+    color: #7c0d0d;
 }
 
 /*MEDIA queries ***********************/
