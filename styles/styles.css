@@ -20,7 +20,7 @@ body {
     font-family: 'Arimo', sans-serif;
     color: white;
     font-weight: bold;
-    font-size: 18px; /* Increase font size */
+    font-size: 18px;
     padding: 10px 20px;
     background-color: #A91111;
     border-radius: 12px;
@@ -38,7 +38,7 @@ body {
     border: 2px solid black;
 }
 
-.service-button:hover, service-button-home:hover{
+.service-button:hover, .service-button-home:hover{
     background-color: #7c0d0d;  
 }
 
@@ -198,6 +198,11 @@ footer {
     color: #7c0d0d;
 }
 
+.submit-button:hover {
+    background-color: #7c0d0d;
+}
+
+
 .phone-link {
     font-size: x-large;
     color:white;
@@ -217,10 +222,6 @@ footer {
 
 .service-link {
     color: white;
-}
-
-.service-link:hover {
-    color: rgb(196, 186, 186);
 }
 
 
@@ -283,6 +284,10 @@ body{
     font-size: 12px;
 }
 
+.submit-button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
 
     #about-banner {
 
