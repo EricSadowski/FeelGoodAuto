@@ -295,24 +295,7 @@ body{
 }
 
 
-.row {
-    position: relative;
-    top: 50;
-    left: 0;
-  }
 
-  .image1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    border: 10px solid #9A1111;
-  }
-  .image2 {
-    position: absolute;
-    top: 170px;
-    left: 170px;
-    border: 10px solid #9A1111;
-  }
 
 
 
