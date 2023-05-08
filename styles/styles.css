@@ -171,8 +171,20 @@ footer {
     color: #A91111;
 }
 
+.phone-number {
+    font-size: x-large;
+}
+
 .social-icon:hover, .phone-icon:hover {
     color: #7c0d0d;
+}
+
+.text-muted {
+    padding-bottom: 10px;
+}
+
+.footer-text {
+    font-size: x-large;
 }
 
 /*MEDIA queries ***********************/
