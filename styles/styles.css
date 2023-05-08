@@ -302,7 +302,10 @@ body{
     
     border: 10px solid #9A1111;
   }
-
+  p {
+    font-family: 'Arimo', sans-serif;
+ color: white;
+}
 
 
 
@@ -330,12 +333,7 @@ body{
         
         background-color: #1D1818;
       }
-      p {
-        font-family: "Yesteryear", Times, serif;
-       
-
-  color: aliceblue;
-}
+   
 
 h2 {
   font-family: "Arimo", Times, serif;
