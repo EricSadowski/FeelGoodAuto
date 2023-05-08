@@ -140,6 +140,14 @@ nav {
     height: 1em;
 }
 
+.nav-link.active {
+    color: #A91111 !important;
+}
+
+.nav-link.active:hover {
+    color:#7c0d0d !important;
+}
+
 /* Style for the footer */
 footer {
     padding-top: 20px;
