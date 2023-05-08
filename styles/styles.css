@@ -61,6 +61,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.home-container h1 {
+    font-size: 7em;
 }
 
 /* ABOUT PAGE CSS 
@@ -275,6 +280,11 @@ footer {
         height: 15em;
         background-image: url(../images/engine-bannerM.jpg);
 }
+
+.home-container h1 {
+    font-size: 5em;
+}
+
 
 }
 
