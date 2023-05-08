@@ -174,16 +174,17 @@ footer {
     font-size: xx-large;
 }
 
-.phone-icon {
+.phone-icon, .address-icon {
     color: #A91111;
-}
-
-.phone-number {
-    font-size: x-large;
 }
 
 .social-icon:hover, .phone-icon:hover {
     color: #7c0d0d;
+}
+
+.phone-link {
+    font-size: x-large;
+    color:white;
 }
 
 .text-muted {
