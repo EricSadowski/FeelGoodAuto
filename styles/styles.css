@@ -211,6 +211,19 @@ footer {
     font-size: x-large;
 }
 
+.phone-link:hover {
+    color: rgb(196, 186, 186);
+}
+
+.service-link {
+    color: white;
+}
+
+.service-link:hover {
+    color: rgb(196, 186, 186);
+}
+
+
 /*MEDIA queries ***********************/
 
 
@@ -310,7 +323,6 @@ body{
 
 }
 
-<<<<<<< Updated upstream
 .image1 {
         
     border: 10px solid #9A1111;
@@ -323,8 +335,6 @@ body{
     font-family: 'Arimo', sans-serif;
  color: white;
 }
-
-
 
 /* Fawzi Styles */
 
@@ -360,5 +370,3 @@ h2 {
     </style>
 
     */
-=======
->>>>>>> Stashed changes
