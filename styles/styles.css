@@ -155,6 +155,22 @@ nav {
     color:#7c0d0d !important;
 }
 
+/************
+PROJECTS CSS
+******/
+
+#projects {
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
+
+.proj-item {
+    margin-top: 2em;
+}
+
+
+
+
 /* Style for the footer */
 footer {
     padding-top: 20px;
@@ -294,6 +310,7 @@ body{
 
 }
 
+<<<<<<< Updated upstream
 .image1 {
         
     border: 10px solid #9A1111;
@@ -343,3 +360,5 @@ h2 {
     </style>
 
     */
+=======
+>>>>>>> Stashed changes
