@@ -201,9 +201,9 @@ footer {
 @media only screen and (max-width: 1399px) {
     #navbarMainHeader a{
         color: white;
-        padding-right: 2.4em;
+        padding-right: 2em;
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
@@ -236,7 +236,7 @@ footer {
 
 
     #navbarMainHeader a{
-        font-size: 1.7em;
+        font-size: 1em;
     }
     
 
