@@ -178,6 +178,15 @@ PROJECTS CSS
     list-style-type: none
 }
 
+.serviceImg {
+    margin-bottom: 1em;
+
+}
+
+.serviceList h2{
+    font-weight: bold;
+}
+
 
 
 /* Style for the footer */
