@@ -162,6 +162,7 @@ PROJECTS CSS
 #projects {
     margin-top: 3em;
     margin-bottom: 4em;
+    font-size: 1.1em;
 }
 
 .proj-item {
