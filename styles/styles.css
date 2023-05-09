@@ -32,7 +32,7 @@ body {
     font-family: 'Arimo', sans-serif;
     color: white;
     font-weight: bold;
-    padding: 5px;
+    padding: 10px;
     background-color: #A91111;
     border-radius: 12px;
     border: 2px solid black;
@@ -66,6 +66,7 @@ body {
 
 .home-container h1 {
     font-size: 7em;
+    text-align: center;
 }
 
 /* ABOUT PAGE CSS 
@@ -306,7 +307,7 @@ footer {
 @media only screen and (max-width: 600px) {
 
 body{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .submit-button {
@@ -314,8 +315,13 @@ body{
 }
 
     #about-banner {
-
+        font-size: .7em;
         background-image: url(../images/engine-bannerM2.jpg);
+}
+
+#navbarMainHeader a{
+
+    font-size: 1.2em;
 }
 
 }
@@ -323,13 +329,8 @@ body{
 
 @media only screen and (max-width: 430px) {
 
-    body{
-        font-size: 10px;
-    }
-    
-
     #about-banner {
-
+        font-size: .6em;
         background-image: url(../images/engine-bannerM2.jpg);
 }
 
@@ -337,10 +338,6 @@ body{
 
 
 @media only screen and (max-width: 360px) {
-
-    body{
-        font-size: 8px;
-    }
 
 
 
